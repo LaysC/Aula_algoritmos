@@ -1,0 +1,42 @@
+<!-- Crie um programa que calcule a média dos alunos, baseado em três notas. -->
+
+<!-- Programa calculamedia
+Variaveis de entrada:
+P1, P2, Pi = números
+leia P1
+leia P2
+leia Pi
+Média = (P1 + (P2+ Pi)*2)/3
+Escreva Média
+Fim -->
+
+<!-- primeira solução -->
+<script>
+    P1 = parseFloat(window.prompt("Qual a primeiro nota (0-10)?"))
+    P2= parseFloat(window.prompt("Qual a segundo nota (0-5)?"))
+    Pi= parseFloat(window.prompt("Qual a terceiro nota (0-5)?"))
+    Media = (P1 + (P2+ Pi)*2)/3
+    window.alert("A média: " + Media)
+    if(Media >=6.5)
+    window.alert("Aprovado")
+    else
+    window.alert("Reprovado")
+
+    </script>
+
+<!-- Programa calculamedia
+Variaveis de entrada:
+P1, P2, Pi = números
+leia P1
+leia P2
+leia Pi
+Escreva ("A média é: + (P1 + (P2+ Pi)*2)/3")
+Fim -->
+
+<!-- segunda solução -->
+<script>
+    P1 = parseFloat(window.prompt("Qual a primeiro nota (0-10)?"))
+    P2= parseFloat(window.prompt("Qual a segundo nota (0-5)?"))
+    Pi= parseFloat(window.prompt("Qual a terceiro nota (0-5)?"))
+    window.alert("A média: " + ((P1 + (P2+ Pi)*2)/3))
+    </script>

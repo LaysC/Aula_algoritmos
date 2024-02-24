@@ -1,0 +1,33 @@
+<!-- Um programa que permite saber qual a quantidade de moeda estrangeira que deve ser paga a um cliente a partir da qua de reais que ele apresenta no caixa. -->
+
+<!-- Programa calculaMoeda
+Variaveis de entrada:
+Moeda1, cotacao = números
+leia Moeda1
+leia cotacao
+Troca = Moeda1/cotacao
+Escreva Troca
+Fim -->
+
+<!-- primeira solução -->
+<script>
+    Moeda1 = parseFloat(window.prompt("Qual valor você tem?"))
+    cotacao= parseFloat(window.prompt("Qual a cotação da moeda que você que trocar?"))
+    Troca = Moeda1/cotacao
+    window.alert("Você tem o equivalente á: " + Troca)
+    </script>
+
+<!-- Programa calculaMoeda
+Variaveis de entrada:
+Moeda1, cotacao = números
+leia Moeda1
+leia cotacao
+Escreva ("Você tem o equivalente á: " + (Moeda1/cotacao))
+Fim -->
+
+<!-- segunda solução -->
+<script>
+    Moeda1 = parseFloat(window.prompt("Qual valor você tem?"))
+    cotacao= parseFloat(window.prompt("Qual a cotação da moeda que você que trocar?"))
+    window.alert("Você tem o equivalente á: " + (Moeda1/cotacao))
+    </script>
